@@ -13,7 +13,7 @@ Yes, you are right but life is too short to stare at LaTeX if Markdown will work
 ## Using this template
 
     $ pip install cookiecutter
-    $ cookiecutter https://github.com/jefftriplett/cookiecutter-pandoc-ebook-template.git
+    $ cookiecutter https://github.com/lizette2015/cookiecutter-pandoc-ebook-template.git
 
 You will be prompted for all relevate information.
 
