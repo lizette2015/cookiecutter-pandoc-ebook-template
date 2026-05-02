@@ -7,6 +7,7 @@ TOC = --toc --toc-depth=2
 COVER_IMAGE = images/cover.jpg
 LATEX_CLASS = report
 CSS = {{ cookiecutter.css_file }}
+FONT = {{ cookiecutter.font_file }}
 
 all: book
 
@@ -23,7 +24,7 @@ pdf: $(BUILD)/pdf/$(BOOKNAME).pdf
 
 $(BUILD)/epub/$(BOOKNAME).epub: $(TITLE) $(CHAPTERS)
     mkdir -p $(BUILD)/epub
-    pandoc $(TOC)  --epub-metadata=$(METADATA) --epub-cover-image=$(COVER_IMAGE) --css=$(CSS) -o $@ $^
+    pandoc $(TOC)  --epub-metadata=$(METADATA)  --epub-embed-font=$(FONT) --epub-cover-image=$(COVER_IMAGE) --css=$(CSS) -o $@ $^
 
 $(BUILD)/html/$(BOOKNAME).html: $(CHAPTERS)
     mkdir -p $(BUILD)/html

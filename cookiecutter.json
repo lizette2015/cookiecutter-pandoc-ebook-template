@@ -5,5 +5,6 @@
     "release_date": "2026-01-01",
     "year": "2026",
     "version": "0.1.0",
-    "css_file": "style.css"
+    "css_file": "style.css",
+    "font_file":  "fonts/abc.ttf"
 }

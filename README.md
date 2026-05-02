@@ -34,3 +34,10 @@ You should be able to run `make` form inside your ebook's folder to generate you
 ## License
 
 BSD licensed and Evan's is MIT (included inside the template repo).
+
+
+
+### Makefile
+
+Al editar este archivo, usar TABS en vez de SPACES, de otra forma el comando **make** arroja error ``"makefile:16: *** missing separator.  Stop."``
+
