@@ -1,18 +1,17 @@
 @font-face {
     font-family: "YourCustomFont";
-      font-style: normal;
-  font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
     src: url("../fonts/abc.ttf");
 }
 
 body{
     font-size:14pt;
-font-family:"YourCustomFont",Calibri,Verdana, sans-serif;
+    font-family:"YourCustomFont",Calibri,Verdana, sans-serif;
 }
 
-h2 {color:blue;}
 :root {
- --color1:#336699;
+ --color1:red;
  --color2:green;
  --color3:brown;
  --color4:blue;
@@ -20,7 +19,6 @@ h2 {color:blue;}
  --color6:yellow;
 
 }
-
 
 
 h1 {color:var(--color1);}
@@ -35,8 +33,8 @@ strong {color: var(--color2);}
 
 /* italics */
 em {color:var(--color3);}
-h1, h2, h3, h4, h5, h6 {
 
+h1, h2, h3, h4, h5, h6 {
   page-break-after: avoid;
   page-break-inside: avoid;
 }
@@ -46,3 +44,4 @@ img.cover-image {
     max-height:100%;
     display:block;
 }
+
