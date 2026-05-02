@@ -1,0 +1,25 @@
+@import url("base.css");
+
+:root{
+ --color1:red;
+ --color2:green;
+ --color3:brown;
+ --color4:blue;
+ --color5:purple;
+ --color6:yellow;
+
+}
+
+
+h1 {color:var(--color1);}
+h2 {color:var(--color2);}
+h3 {color:var(--color3);}
+h4 {color:var(--color4);}
+h5 {color:var(--color5);}
+h6 {color:var(--color6);}
+
+/* bold face */
+strong {color: var(--color2);}
+
+/* italics */
+em {color:var(--color3);}
